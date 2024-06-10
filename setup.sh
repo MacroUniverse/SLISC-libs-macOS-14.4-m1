@@ -5,6 +5,7 @@ echo ":: initializing SLISC-libs-mcsOS-14.4-m1"
 ADD="source lib_prepend.sh $PWD"
 
 $ADD/arpack-3.9.1
+$ADD/arpackpp-2.3.0
 $ADD/boost-1.85.0
 $ADD/eigen-3.4.0
 $ADD/flint-3.1.3
